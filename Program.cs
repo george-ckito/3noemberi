@@ -25,3 +25,33 @@ if(false)
     DynamicEmployee dynamicEmployee = new DynamicEmployee("Jane", "Doe", "2309423840", 1000, 38);
     dynamicEmployee.ShowData();
 }
+
+//4
+if(false)
+{
+    Car car = new Car();
+    car.left();
+    car.right();
+    car.start();
+    car.stop();
+}
+
+//5
+if (false)
+{
+    FullTime ft = new FullTime("john", 500);
+    PartTime pt = new PartTime("doe", 45, 17.5);
+    ft.GetInfo();
+    pt.GetInfo();
+}
+
+//6
+if (false)
+{
+    Email email = new Email("iodjoasjdoasidj@aodjsa.sad", "siajdias@dasidj.sadas", "hi");
+    email.send("ksa@dsa.sad");
+    email.receive();
+    Sms sms = new Sms("234234233", "32432432423", "hello");
+    sms.send("234234234");
+    sms.receive();
+}
